@@ -66,10 +66,11 @@ p {
 .next-btn {
     margin: 1.2rem 10rem;
     padding: .5rem 1rem;
-    border-radius: .3rem;
+    border-radius: 0.5rem;
     width: 5rem;
     height: 2.5rem;
-    border: none;
+    border-color: black;
+    border-width: 2px;
     font-size: 1rem;
 }
 
@@ -93,10 +94,11 @@ p {
 .check-btn {
     margin: 1.2rem 10rem;
     padding: .5rem 1rem;
-    border-radius: .3rem;
+    border-radius: .5rem;
     width: 5rem;
     height: 2.5rem;
-    border: none;
+    border-color: black;
+    border-width: 2px;
     font-size: 1rem;
 }
 
