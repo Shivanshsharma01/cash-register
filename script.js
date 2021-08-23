@@ -23,7 +23,7 @@ function checkBillAndUserAmount(){
 }
 
 function checkUserAndBillAmount() {
-    if (userAmount.value >= billAmount.value) {
+    if (Number(userAmount.value) >= Number(billAmount.value)) {
         // need to calculate the change
         const amountToBeReturned = userAmount.value - billAmount.value
         calculateChange(amountToBeReturned)
